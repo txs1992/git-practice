@@ -19,3 +19,9 @@ git log --oneline 只看 commit 提交信息
 git log -n2 查看最近两条提交历史
 
 git log --graph 图形化查看历史
+
+### 查看 git objects 文件
+
+git cat-file -t xxx 查看文件类型
+
+git cat-file -p xxx 查看文件内容
