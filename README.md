@@ -10,6 +10,18 @@ git rm 删除文件
 
 git commit 提交历史
 
+### git 分支操作
+
+git checkout branchName 切换分支
+
+git checkout -b branchName 创建新分支并切换到该分支
+
+git branch / git branch -v 查看分支
+
+git branch newBranchName commit/branchName 创建新分支，基于 commit 或者分支名
+
+git branch -D branchName 删除分支
+
 ### 查看版本演变历史
 
 git log 查看历史
