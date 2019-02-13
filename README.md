@@ -10,6 +10,8 @@ git rm 删除文件
 
 git commit 提交历史
 
+git commit --amend 'message' 修改 commit 信息
+
 ### git 分支操作
 
 git checkout branchName 切换分支
