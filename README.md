@@ -41,3 +41,7 @@ git log --all 查看所有分支提交历史
 git cat-file -t xxx 查看文件类型
 
 git cat-file -p xxx 查看文件内容
+
+### rebase
+
+git rebase -i commit
